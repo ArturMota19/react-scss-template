@@ -1,4 +1,4 @@
-// @import "./styles/mixins.scss";
+@import "./styles/mixins.scss";
 
 .text{
   display: flex;
@@ -6,6 +6,7 @@
   justify-content: center;
 
   h1{
-    // code here
+    @include font-bold-1;
+    color: var(--red-font-color);
   }
 }
